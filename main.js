@@ -35,5 +35,4 @@ const addingValues = (arr1) => {
 //.filter()
 const filteredArray = (arr1) => {
   let newArray = [];
-  for (let i = 0; i < arr1.length; i++) {}
 };
