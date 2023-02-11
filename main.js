@@ -33,6 +33,16 @@ const addingValues = (arr1) => {
 // *************************************************************************************************
 
 //.filter()
-const filteredArray = (arr1) => {
+let filterCondition = 15;
+
+const filteredArray = (arr1, filterBy) => {
   let newArray = [];
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] > filterBy) {
+      newArray.push(arr1[i]);
+    }
+  }
+  console.log(newArray);
 };
+
+console.log(filteredArray(myArray, filterCondition));
